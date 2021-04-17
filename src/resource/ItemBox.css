@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.itemBox {
+  border: 1px solid white;
+  width: 32%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imageBox {
+  width: 45%;
+  padding: 15px;
+}
+
+.itemDetails {
+  width: 40%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+div strong,
+div p small {
+  color: white;
+}
+
+button {
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  padding: 5px;
+}
